@@ -1,0 +1,932 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: #EBF2FF;
+    width: 100%;
+    height: 100vh;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+a{
+    text-decoration: none;
+    gap: 4em;
+    color: #9EA3AE;
+    font-weight: 500;
+    
+}
+.ho{
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+
+}
+.menu ul button{
+    height: 35px;
+    width: 90px;
+    border-radius: 40px;
+    border-style: none;
+    background: #2374EE;
+    color: white;
+
+}
+.menu ul button:hover{
+    background: yellowgreen;
+    color: orangered;
+    /* margin-top: 2rem; */
+}
+
+.modern{
+    display: flex;
+    margin-top: 2rem;
+}
+.mod{
+    margin-left: 2rem;
+}
+.mod .mon{
+    color: #063852;
+}
+.mod .edu{
+    color: #2374EE;
+}
+.mod p{
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: #9EA3AE;
+    margin-top: 1rem;
+
+}
+.modern .view{
+    display: flex;
+}
+.mod .view button:hover{
+    background:greenyellow;
+    color: green;
+}
+
+.view .vie{
+    margin-top: 1rem;
+    margin-left: 8px;
+    color: #063852;
+}
+.view .tri{
+    margin-right: 2rem;
+    width: 110px;
+    height: 40px;
+    border-radius: 40px;
+    background: #2374EE;
+    border-style: none;
+    color: white;
+}
+.view{
+    margin-top: 2rem;
+}
+
+.empo{
+    display: flex;  
+    margin-left: 5rem; 
+}
+.empower{
+    margin-top: 2rem;
+}
+.empower h3{
+    color: #063852;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+.empower p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: #9EA3AE;
+    margin-top: 5px;
+}
+.empo .grp{
+    margin-top: 2rem;  
+}
+.grp1 button{
+    height: 35px;
+    width: 110px;
+    border-radius: 40px;
+    background: #2374EE;
+    border-style: none;
+    color: white;
+    margin-top: 2rem;
+}
+
+.temp{
+    margin-left: 6rem;
+    height: 413px;
+}
+
+.mai{
+    text-align: center;
+    margin-top: 1rem;
+}
+.mai .ftr h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #063852;
+    Font-style: Bold;  
+}
+.mai .ftr p{
+    margin-top: 1rem;
+    color: #6C727F;
+    Font-size: 16px;  
+}
+
+.sched{
+    display: flex;
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+.sch{
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+.sch h4{
+    margin-bottom: 1rem;
+    color: #FFB700;
+    font-size: 16px;
+}
+.sch h3{
+    color: #063852;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.sch p{
+   color: #6C727F;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 1rem;
+}
+.sch a{
+    color: #2374EE;
+}
+
+.Analy{
+    display: flex;
+    margin-left: 6rem;
+}
+.ana{
+    margin-top: 2rem;
+}
+.ana h3{
+    margin-bottom: 1rem;
+    color: #FFB700;
+    text-transform: uppercase;
+}
+.ana  .anna {
+    color: #063852;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: initial;
+}
+.ana p{
+    color: #6C727F;
+    font-size: 16px;
+}
+.imi{
+    margin-left: 4rem;  
+}
+.dis {
+    margin-top: 2rem;
+}.dis a{
+    color: #2374EE;
+    font-size: 16px;
+}
+.dis img{
+    margin-left: 1rem;
+}
+.Analy .imi{
+    margin-left: 7rem;
+}
+
+.Eli{
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.man{
+    margin-left: 10rem;
+}
+
+
+/* .brian{
+    background: #FFB700;
+    height: 133px;
+    width: 150px;
+    border-radius: 8px;
+    position: relative;    
+} */
+
+.con{
+    background: #fdf1f1;
+    height: 135px;
+    width: 150px;
+    border-radius: 8px;
+    margin-top: 25px;
+    position: relative; 
+    margin-left: 350px;
+}
+
+#connor{
+    padding-top: 8px;
+}
+#connor h5{
+    color: #063852;
+    font-size: 18px;
+}
+#connor p{
+    font-size: 14px;
+    color: #9EA3AE;
+    font-weight: 500;
+    
+}
+
+.con img{
+    margin-right: 10px;
+    margin-top: 5px;
+    /* position: relative; */
+}
+.brian .con{
+    text-align: center;
+    position: absolute;
+    
+
+}
+.brian .gpp{
+    position: relative;
+    z-index: -1;
+    
+}
+.con button{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #2374EE;
+    border-style: none;
+    color: #FFFFFF;
+}
+.con button:hover{
+    background: greenyellow;
+    color: blue;
+}
+.man h4{
+    color: #FFB700;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+.man h3{
+    color: #063852;
+}
+.man p{
+    color: #6C727F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.dis a{
+    color: #2374EE;
+    font-size: 16px;
+}
+
+
+.oool{
+    height: 100vh;
+    margin-top: 3rem;
+    /* background: #E5E5E5; */
+}
+.ool h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    letter-spacing: -1%;
+    font-family: sans-serif;   
+}
+.ool .schl{
+    text-align: center;
+    font-family: sans-serif;   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #D3D5DA;
+    vertical-align: top;
+    fill: solid;
+    margin-top: 5px;
+
+}
+.but{
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+    padding-left: 3rem 3rem;
+}
+.but img{
+    margin-left: 1rem;
+}
+.but .st {
+    margin-left: 4rem;
+    margin-top: 8rem;
+}
+.but .st1{
+    margin-right: 5rem;
+    margin-top: 8rem;
+}
+
+.ool{
+    background: #2374EE;
+    height: 397px;
+    padding-top: 3rem;
+    margin-bottom:;   
+}
+
+
+.but .ash{
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    height: 263px;
+    width: 440px;
+    margin-right: 2rem;
+    border-bottom-style: inset;
+}
+.but .you{
+    margin-top: 2rem;
+}
+.ash .rou{
+    width: 64px;
+    height: 64;
+    margin-right: 10px;
+    
+}
+.but .ash h3{
+    color: #063852;
+    font-size: 20px;
+    font-style: bold;
+    line-height: 32px;
+    letter-spacing: -0.5%;
+    text-align: center;
+    vertical-align: top;
+}
+.but .ash .pp{
+    color: #9EA3AE;
+    Font family: Poppins;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.but .ash .ppp{
+    color: #6C727F;
+    line-height: 19.6px;
+    font-size: 14px;
+}
+
+
+/* <----------second class start here--------> */
+
+.but .ash1{
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    height: 263px;
+    width: 420px;
+    margin-right: 2rem;
+    border-bottom-style: inset;
+}
+.but .you2{
+    margin-top: 2rem;
+}
+.ash1 .rou2{
+    width: 64px;
+    height: 64;
+    margin-right: 10px;
+    
+}
+.but .ash1 h3{
+    color: #063852;
+    font-size: 20px;
+    font-style: bold;
+    line-height: 32px;
+    letter-spacing: -0.5%;
+    text-align: center;
+    vertical-align: top;
+}
+.but .ash1 .pp{
+    color: #9EA3AE;
+    Font family: Poppins;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.but .ash1 .ppp2{
+    color: #6C727F;
+    line-height: 19.6px;
+    font-size: 14px;
+}
+
+/* <----------second class ends here--------> */
+
+/*<-----third class start here-------->*/
+.but .ash2{
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    height: 263px;
+    width: 420px;
+    margin-right: 2rem;
+    border-bottom-style: inset;
+}
+.but .you3{
+    margin-top: 2rem;
+}
+.ash2 .rou3{
+    width: 64px;
+    height: 64;
+    margin-right: 10px;    
+}
+.but .ash2 h3{
+    color: #063852;
+    font-size: 20px;
+    font-style: bold;
+    line-height: 32px;
+    letter-spacing: -0.5%;
+    text-align: center;
+    vertical-align: top;
+}
+.but .ash2 .p4{
+    color: #9EA3AE;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.but .ash2 .p5{
+    color: #6C727F;
+    line-height: 19.6px;
+    font-size: 14px;
+}
+
+.ool button{
+border-radius: 37px;
+width: 160px;
+height: 54px;
+margin-left: 36rem;
+background: #2374EE;
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+border-style: none;
+margin-top: 1rem;
+
+}
+.ool button:hover{
+    background: #FFB700;
+    color: green;
+}
+/*<-----third class ends here-------->*/
+
+/* <!---lets set your plan starts here--> */
+
+.set{
+    text-align: center; 
+    background: white; 
+    height: 30vh;
+}
+.set h2{
+    margin-top: 1rem;
+    color: #063852;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    text-align: center;
+
+}
+.set p{
+    font-size:16px;
+    color: #6C727F;
+    line-height: 25.6px;
+    margin-top: 1rem;
+}
+.sta {
+    display: flex;
+    m
+}
+.doll{
+    display: flex;
+}
+
+.all{
+    display: flex;
+}
+
+.General {
+    display: flex;
+    gap: 6rem;
+    margin-bottom: 3rem;
+}
+
+.star{
+    margin-left: 7rem;
+    padding-top: 9rem;
+    height: 547px;
+}
+
+.sta p{
+    color: #6F6C90;
+    font-size: 18px;
+    font-weight: 500;   
+    line-height: 26px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    margin-left: 1rem;
+}
+.sta h4{
+    color: #063852;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 1rem;
+}
+.star .p1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    Font-style: Medium;
+    Font-size: 18px;
+    Line-height: 26px;
+    color: #6C727F;
+}
+.doll{
+    gap: 4px;
+}
+.doll .dolla h1{
+    color: #063852;
+    Font-style: Bold;
+    Font-size: 64px;
+    Line-height: 70px;
+}
+.doll .pi{
+    margin-top: 15px;
+    Font-style: Medium;
+    Font-size: 20px;
+    Line-height: 32px;
+    color: #9EA3AE;
+}
+.what p{
+    Font-style: Medium;
+    Font-size: 18px;
+    Line-height: 26px;
+    color: #063852;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+}
+.every{
+    margin-top: 1rem;
+}
+.every .all{
+    margin-bottom: 6px;
+}
+.every .all p{
+    padding-left: 1rem;
+}
+.gt{
+    margin-top: 1rem;
+}
+.gt button {
+    border-radius: 36px;
+    height: 64px;
+    width: 254px;
+    color: #FFFFFF;
+    background-color: #2374EE; 
+    border-style: none; 
+}
+.gt button:hover{
+    background: greenyellow;
+    color: crimson;
+}
+
+/* <!--second starts here--> */
+
+.Big{
+    background:#2374EE;
+    height: 638px;
+    width: 382px;
+    left: 529px;
+    top: 4007px;
+    border-radius: 25px;
+
+}
+.sta1{
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 51px;
+    margin-bottom: 1rem;
+}
+.sta1 .for{
+    margin-left: 20px;
+}
+
+.sta1 .for p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.005em;
+    color: #EFF0F6;
+}
+.sta1 .for h4{
+    Font-style: Bold;
+    Font-size: 24px;
+    Line-height: 36px;
+    color: #FFFFFF;
+}
+.ppa {
+    font-size: 18px;
+    Line-height: 26px;
+    color: #E5E6EB;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: -0.5%;
+    margin-bottom: 1rem;
+}
+.doll1{
+    display:flex ;
+}
+.doll1 h1{
+font-size: 64px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: -0.01em;
+color: #FFFFFF;
+margin-left: 3rem;
+}
+.doll1 p{
+Font-style: Medium;
+Font-size: 20px;
+line-height: 32px;
+letter-spacing: -0.5%;
+color: #E5E6EB;
+margin-top: 1rem;
+margin-left: 5px;
+margin-bottom: 2rem;
+}
+.what1{
+    margin-left:3em;
+    Font-style: Medium;
+    Font-size: 18px;
+    Line-height: 26px;
+    letter-spacing: -0.5%;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.all1{
+    display: flex;
+    margin-left: 3rem;
+    color: #FFFFFF;
+    gap: 1rem;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.bti button {
+    height: 64px;
+    width: 308px;
+    left: 566px;
+    top: 4537px;
+    border-radius: 36px;
+    margin-left: 38px;
+    background: #FFFFFF;
+    color: #2374EE;
+    border-style: none;
+    margin-top: 2rem;
+}
+
+.bti button:hover{
+    background: greenyellow;
+    color: crimson;
+}
+
+/* <--second ends here--> */
+
+/* third ends starts here */
+.Uni{
+    margin-left: 20px;
+    padding-top: 9rem;
+    height: 547px;
+}
+
+.sta3{
+    display: flex;
+}
+.sta3 p{
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: -0.005em;
+color: #6F6C90;
+margin-left: 1rem;
+margin-bottom: 4px;
+}
+.sta3 h4{
+    margin-left: 1rem;
+    font-style: Bold;
+    Font-size: 24px;
+    line-height: 36px;
+    Letter-spacing: -1%;
+    color: #063852;
+}
+.pye{
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: -0.005em;
+color: #6C727F;
+margin-top: 7px;
+margin-bottom: 8px;
+}
+.dolly h1{
+color: #063852;
+font-size: 64px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: -0.01em;
+}
+.dolly p{
+    color: #9EA3AE;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.ans{
+    margin-top: 6px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-style: medium;
+    line-height: 26px;
+    letter-spacing: -0.5%;
+    color: #063852;
+}
+.last{
+    margin-top: 1rem;
+}
+.alll{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 8px;   
+}
+
+.atlas button {
+    margin-top: 5px;
+    height: 64px;
+    width: 250px;
+    top: 4537px;
+    border-radius: 36px;
+    background: #2374EE;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+.atlas button:hover{
+    background: greenyellow;
+    color: crimson;
+}
+/* <--third ends here--> */
+
+/* footer starts here */
+.footer{
+    height: 115vh;
+    background: #063852;
+    margin-top: 6rem;
+}
+.foot1{
+    display: flex;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+.foot1 .mac{
+    position: absolute;
+    left: 0rem;
+    top: 3rem;
+}
+.text{
+    margin-left: 45%;
+    padding-top: 7rem;
+}
+
+.text .tri{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1%;
+    color: #FFFFFF;
+
+}
+.reg p{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: #E5E5E5;
+}
+
+.bet{
+    gap: 15px;
+    margin-top: 2rem;
+}
+.bet .tria button{
+    height: 58px;
+    width: 180px;
+    left: 766px;
+    top: 5217px;
+    border-radius: 37px;
+    background: #2374EE;
+    color: #FFFFFF;
+    border-style: none;
+
+}
+.bet  .tria button:hover{
+    background: greenyellow;
+    color: crimson;
+}
+.ass{
+    margin-top: 1rem;
+    margin-left: 10px;
+}
+.bet p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-top: 1rem;
+}
+
+.ed{
+    margin-top: 2.5rem;
+}
+.co ul{
+    display: flex;
+    gap: 3rem;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    margin-top: 9rem;
+    left: 34rem;
+    
+
+}
+.edd{
+    position: absolute;
+    left: 5rem;
+    margin-top: 2rem;
+}
+.edd .lea{
+    margin-top: 1rem;
+}
+
+
+
+/* footer ends here */
